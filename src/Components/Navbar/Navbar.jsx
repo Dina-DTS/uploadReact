@@ -35,7 +35,7 @@ export default function Navbar() {
           className="navbar-brand text-white text-uppercase fw-bolder fs-2"
           href="#"
         >
-          Start Frameworkk
+          Start Framework
         </a>
         <button
           className="navbar-toggler"
