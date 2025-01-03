@@ -12,10 +12,11 @@ import Notfound from './Components/Notfound/Notfound'
 function App() {
 
   const router=  createBrowserRouter([
-    {path:'',element:<Layout/>,errorElement:<Notfound/> ,children:[
+    {path:'',element:<Layout/> ,children:[
       {index:true,element:<About/>},
       {path:"portfolio",element:<Portfolio/>},
       {path:"contact",element:<Contact/>},
+      {path:"*", element:<Notfound/>},
     ]}
 ])
 
