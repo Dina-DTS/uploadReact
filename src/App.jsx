@@ -16,10 +16,8 @@ function App() {
       {index:true,element:<About/>},
       {path:"portfolio",element:<Portfolio/>},
       {path:"contact",element:<Contact/>},
-    ]},
-    {path:"*",element:<Notfound/>},
-
-
+      {path:"*",element:<Notfound/>},
+    ]}
 ])
 
 
