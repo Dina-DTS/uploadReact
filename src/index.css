@@ -49,7 +49,7 @@ nav{
   width: fit-content;
 }
 /* Component About */
-.about {
+.about,.Notfound {
   background-color: #1abc9c !important;
   color: white !important;
   min-height: 95vh;

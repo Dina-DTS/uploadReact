@@ -7,6 +7,7 @@ import Layout from './Components/Layout/Layout'
 import About from './Components/About/About'
 import Portfolio from './Components/Porttofolio/Portfolio'
 import Contact from './Components/Contact/Contact'
+import Notfound from './Components/Notfound/Notfound'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       {index:true,element:<About/>},
       {path:"portfolio",element:<Portfolio/>},
       {path:"contact",element:<Contact/>},
+      {path:"*",element:<Notfound/>},
     ]}
 ])
 
